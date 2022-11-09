@@ -19,4 +19,20 @@
     <!-- DO NOT touch the following DIV -->
     <div id="q-app"></div>
   </body>
+    <style>
+      @media (max-width: 1024px) {
+        #q-app {
+          overflow-y: hidden !important;
+          height: 100vh !important;
+        }
+      }
+      @media (min-width: 1025px) {
+        #q-app{
+          display: none !important;
+        }
+      }
+      ::-webkit-scrollbar {
+          display: none !important;
+        }
+    </style>
 </html>
